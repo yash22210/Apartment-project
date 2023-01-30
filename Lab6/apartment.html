@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Yash Patel 000842226-->
+  <title>outdoor Adventure Seminar </title>
+  <style>
+.Header{
+  text-align: center;
+}
+.btn{
+  display: inline;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+
+}
+.column1{
+  float: left;
+  width: 18%;
+  padding: 20px;
+
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+h1{
+background-color:#F4D03F;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+}
+table{
+  border-collapse: collapse;
+}
+th{
+  height: 25px;
+  background-color:#A9A9A9
+}
+.footert{
+  background-color:#66CDAA;
+}
+.form{
+  display:inline;
+}
+.flex1{
+ display: inline-block;
+}
+h3{
+  background-color:#D35400;
+  color:white;
+}
+.footer{
+text-align: center;
+font-size: 15px;
+}
+  </style>
+  </head>
+<body>
+  <h3 class="Header"> Sandy and Leslie's Apartment</h3>
+  <img src="thumbnails/apartmentfloorplan.jpg" usemap="#image-map" class="img">
+<map name="image-map">
+  <area target="" alt="Bedroom2 " title="Bedroom2 " href="Bedroom.html" coords="411,277,585,461" shape="rect">
+  <area target="" alt="Living room " title="Living room " href="Livingroom.html" coords="219,168,213,12,400,13,394,124,349,177" shape="poly">
+  <area target="" alt="Dining Room " title="Dining Room " href="Diningroom.html" coords="471,217,53" shape="circle">
+  <area target="" alt="Bedroom1" title="Bedroom1" href="Bedroom.html" coords="44,7,199,163" shape="rect">
+  <area target="" alt="Kitchen" title="Kitchen" href="kitchen.html" coords="407,239,215,298" shape="rect">
+</map>
+
+  <div class="navbar">
+      <a href="apartment.html" class="btn"> Apartment</a> |
+      <a href="Bedroom.html" class="btn">Bedroom 1</a> |
+      <a href="Bedroom.html" class="btn">Bedroom 2</a> |
+      <a href="Diningroom.html" class="btn">Dining room</a> |
+      <a href="Kitchen.html" class="btn">Kitchen</a> |
+      <a href="Livingroom.html" class="btn">living room</a>
+  </div>
+  <div class="row">
+  <div class="column">
+    <h1>Location</h1>
+    <img src="thumbnails/location.png" alt="Location">
+  </div>
+  <div class="column" >
+    <h1>Apartment Services:</h1>
+      <table>
+        <tr>
+          <th>Service</th>
+          <th>Day/Hourse</th>
+        </tr>
+        <tr>
+          <td>Gym</td>
+          <td rowspan="2"><br>
+             Monday-Friday 6am-10pm <br>
+                       Saturday 8am- 8pm<br>
+                      Sunday 8am-5pm<br><br>
+
+        </tr>
+        <tr>
+          <td>pool</td>
+        </tr>
+        <tr>
+          <td>Laundry</td>
+          <td>24/7</td>
+        </tr>
+        <tr>
+          <td colspan="2" class="footert">Please do not allow people you do not know to use these facilities</td>
+        </tr>
+      </table>
+
+
+  </div>
+  <div class="column">
+    <h1>Welcome message</h1>
+    <audio controls>
+      <source src="thumbnails/apartment.mp3" type="audio/mpeg">
+      </audio>
+      <p>Transcript: Hello. Welcome to our apartment. You'll realy enjoy living here. The
+        rooms are spacious and the apartment building amenities are fantastic. We look forward to hearing from you!
+      </p>
+      <h1>Survey</h1>
+      <p>How did you find out About this apartment? Check any that apply:
+      </p>
+
+      <div>
+      <div class="flex1">
+         <input type="checkbox" id="How did they find apartment" name="How did they find apartment" value=" Web Search">
+        <label  for="How did they find apartment"> Web search</label>
+      </div>
+      <div class="flex1">
+         <input type="checkbox" id="How did they find apartment" name="How did they find apartment" value="Friends">
+        <label  for="How did they find apartment"> Friends</label>
+      </div>
+      <div class="flex1">
+         <input type="checkbox" id="How did they find apartment" name="How did they find apartment" value="Newspaper">
+        <label for="How did they find apartment"> Newspaper</label>
+      </div>
+      <form method = "post" action = "https://csunix.mohawkcollege.ca/tooltime/showit.pl">
+        <br>
+      <input type = "submit" value = "Submit">
+      <input type="reset" value = "Reset Form">
+    </div>
+
+ </div>
+</div>
+  <h1>Galary</h1>
+  <div class="row1">
+<div class="column1">
+  <h3>Balcony</h3>
+  <img src="thumbnails/balcony_sm.jpg" alt="balcony">
+</div>
+<div class="column1">
+  <h3>Bathroom</h3>
+  <img src="thumbnails/bathroom_sm.jpg" alt="bathroom">
+</div>
+<div class="column1">
+  <h3>Bedroom</h3>
+  <img src="thumbnails/bedroom_sm.jpg" alt="Bedroom">
+</div>
+<div class="column1">
+  <h3>Dining Room</h3>
+  <img src="thumbnails/diningroom_sm.jpg" alt="Dining Room">
+</div>
+<div class="column1">
+  <h3>Kitchen</h3>
+  <img src="thumbnails/kitchen_sm.jpg" alt="Kitchen">
+</div>
+<div class="column1">
+  <h3>Living Room</h3>
+  <img src="thumbnails/livingroom_sm.jpg" alt="Kitchen">
+</div>
+</div>
+<div>
+<p class="footer">
+  for more information contact: <a href="Mailto:apartment@gmail.com"> apartment@gmail.com</a> or <a href="tel:9055551234">(905)555-1234</a>
+</p>
+<p class="footer">
+   &#169; Sandy and Leslie 2020
+</div>
+</body>
+</html>
